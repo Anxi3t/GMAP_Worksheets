@@ -85,8 +85,8 @@ public class HVector2D
         return Vector2.zero; // change this
     }
 
-    // public void Print()
-    // {
-
-    // }
+    public void Print()
+    {
+        Debug.Log($"({x}, {y}, {h})");
+    }
 }
